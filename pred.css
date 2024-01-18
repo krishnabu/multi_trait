@@ -1,0 +1,189 @@
+#h4{
+    width: 100%;
+    text-align: center;
+    font-size: 8em;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300    ;
+}
+#ip1{
+    width: 100%;
+    font-size: 1.8em;
+    margin-bottom: 12px;
+}
+#btn{
+    font-size: 2em;
+    background-color: rgb(174, 187, 172);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+#btn:hover{
+    background-color: rgb(212, 212, 186);
+    
+}
+#h4{
+    width: 100%;
+    text-align: center;
+    font-size: 8em;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300    ;
+}
+#ip1{
+    width: 100%;
+    font-size: 1.8em;
+    margin-bottom: 12px;
+}
+#btn{
+    font-size: 2em;
+    background-color: rgb(165, 251, 152);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+#btn:hover{
+    background-color: rgb(21, 255, 21);
+    
+}
+  /* Include your existing styles here */
+
+      /* Add any additional or modified styles for the new prediction page */
+      body {
+        background: url("https://images.unsplash.com/photo-1610738676109-e33656683023?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+          center center fixed;
+        background-size: cover;
+        background-color: #f0f0f0;
+        color: #333; /* Set text color */
+      }
+
+      .second-page {
+        /* Additional styles for the second prediction page */
+        padding: 30px;
+        border: 5px solid #333;
+        border-radius: 15px;
+        margin: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .info-section {
+        margin-top: 20px;
+      }
+      /* Additional styles for the enhanced prediction page */
+      .additional-class {
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+      }
+
+      .additional-class label {
+        font-size: 1.3em;
+        color: #333;
+        display: block;
+        margin-bottom: 15px;
+      }
+
+      .additional-class input#genotypeInput {
+        font-size: 1.2em;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        border: 2px solid #555;
+        border-radius: 5px;
+        outline: none;
+      }
+
+      .additional-class input#genotypeInput:focus {
+        border-color: #333;
+      }
+
+      .additional-class button#submitBtn {
+        font-size: 1.2em;
+        padding: 12px;
+        background-color: #555;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      .additional-class button#submitBtn:hover {
+        background-color: #777;
+      }
+
+      /* Additional styles for the information section */
+      .additional-class .info-section {
+        margin-top: 30px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .additional-class .info-section h3 {
+        font-size: 2em;
+        color: #333;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+
+      .additional-class .info-section p {
+        font-size: 1.2em;
+        line-height: 1.6;
+        color: #555;
+      }
+      nav {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      nav a {
+        font-size: 1.5em;
+        font-weight: bold;
+        display: inline-block;
+        color: #333;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 10px 15px;
+        margin: 0 10px;
+        background-color: #fff;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      nav a:hover {
+        background-color: #333;
+        color: #fff;
+      }
+      /* Additional styles for the enhanced prediction page */
+
+      .additional-class .info-text {
+        font-size: 1.3em;
+        color: #333;
+        margin-bottom: 15px;
+      }
+
+      .additional-class .prediction-info {
+        margin-top: 30px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .additional-class .prediction-info h3 {
+        font-size: 2em;
+        color: #333;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+
+      .additional-class .prediction-info p {
+        font-size: 1.2em;
+        line-height: 1.6;
+        color: #555;
+      }
